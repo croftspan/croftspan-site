@@ -5,12 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1C1917" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#F5F0E8" media="(prefers-color-scheme: light)">
-  <title>Contact | Croftspan</title>
-  <meta name="description" content="Tell us about your project. We'll tell you honestly whether we can help.">
-  <meta property="og:title" content="Contact | Croftspan">
-  <meta property="og:description" content="Tell us about your project.">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
+  <title>Message Sent | Croftspan</title>
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +20,6 @@
 </head>
 <body>
 
-
 <nav class="nav" aria-label="Main navigation">
   <div class="accent-bar"></div>
   <div class="nav-inner">
@@ -38,7 +32,7 @@
       <a href="services.html">Services</a>
       <a href="team.html">Team</a>
       <a href="pillars.html">Pillars</a>
-      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html">Contact</a>
       <button class="theme-toggle" aria-label="Toggle color mode">
         <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
@@ -49,40 +43,13 @@
 </nav>
 
 <main id="main">
-
-  <section class="hero">
+  <section class="hero text-center">
     <div class="container">
-      <h1>Tell us about your project</h1>
-      <p>Describe what your team is working on and where your AI workflows are falling short. We'll tell you honestly whether we can help.</p>
+      <h1>Message received</h1>
+      <p>We'll get back to you shortly.</p>
+      <a href="index.html" class="btn btn-primary btn-lg mt-4">Back to home</a>
     </div>
   </section>
-
-  <section class="section-sm">
-    <div class="container container-narrow">
-      <form name="contact" method="POST" action="/success.html" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact">
-        <p class="sr-only"><label>Don't fill this out: <input name="bot-field"></label></p>
-
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" class="form-input" required>
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" class="form-input" required>
-        </div>
-
-        <div class="form-group">
-          <label for="message">Tell us about your project</label>
-          <textarea id="message" name="message" class="form-input" required placeholder="What does your team build? Where are your AI workflows falling short? What does 'fixed' look like for you?"></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
-      </form>
-    </div>
-  </section>
-
 </main>
 
 <footer class="footer">
