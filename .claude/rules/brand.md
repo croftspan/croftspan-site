@@ -26,7 +26,7 @@ Voice is direct, confident without performing, specific, honest about limits, wa
 
 ## Visual Identity
 
-- **Colors:** Forge (#1C1917), Vellum (#F5F0E8), Stone (#57534E), Copperfield (#B45309), Slate (#334155), Survey Red (#DC2626), Lichen (#16A34A), Chalk (#D6D3D1)
+- **Colors:** Forge (#1C1917), Vellum (#F5F0E8), Stone (#44403C), Copperfield (#A14B08), Slate (#334155), Survey Red (#DC2626), Lichen (#16A34A), Chalk (#D6D3D1)
 - **Typography:** DM Serif Display (headings), Inter (body), JetBrains Mono (code)
 - **Icons:** Line icons, 24x24 grid, 1.5px stroke, Stone/Copperfield colors
 - **Motion:** 150-300ms transitions, purposeful not decorative

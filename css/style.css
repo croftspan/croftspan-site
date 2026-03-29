@@ -20,10 +20,10 @@ button { cursor: pointer; border: none; background: none; }
   --forge: #1C1917;
   --forge-90: #292524;
   --vellum: #F5F0E8;
-  --stone: #57534E;
-  --copperfield: #B45309;
-  --copperfield-hover: #9A4408;
-  --copperfield-active: #854005;
+  --stone: #44403C;
+  --copperfield: #A14B08;
+  --copperfield-hover: #8B4107;
+  --copperfield-active: #753706;
   --copperfield-glow: rgba(180, 83, 9, 0.15);
   --slate: #334155;
   --chalk: #D6D3D1;
@@ -90,19 +90,19 @@ button { cursor: pointer; border: none; background: none; }
 /* --- Dark Mode --- */
 [data-theme="dark"] {
   --bg: var(--forge);
-  --bg-alt: #1f1c1a;
+  --bg-alt: var(--forge-90);
   --text: var(--vellum);
-  --text-secondary: var(--chalk);
+  --text-secondary: #A8A29E;
   --surface: var(--forge-90);
-  --card-border: rgba(87, 83, 78, 0.2);
-  --border: rgba(87, 83, 78, 0.2);
+  --card-border: rgba(87, 83, 78, 0.25);
+  --border: rgba(87, 83, 78, 0.25);
   --nav-bg: rgba(28, 25, 23, 0.95);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.15);
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
   --pillar-bg: var(--forge-90);
   --pillar-text: var(--vellum);
-  --pillar-sub: var(--chalk);
+  --pillar-sub: #A8A29E;
   --pillar-border: rgba(87, 83, 78, 0.4);
   --invert-bg: var(--vellum);
   --invert-text: var(--forge);
@@ -112,17 +112,18 @@ button { cursor: pointer; border: none; background: none; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: var(--forge);
-    --bg-alt: #1f1c1a;
+    --bg-alt: var(--forge-90);
     --text: var(--vellum);
-    --text-secondary: var(--chalk);
+    --text-secondary: #A8A29E;
     --surface: var(--forge-90);
-    --card-border: rgba(87, 83, 78, 0.2);
-    --border: rgba(87, 83, 78, 0.2);
+    --card-border: rgba(87, 83, 78, 0.25);
+    --border: rgba(87, 83, 78, 0.25);
     --nav-bg: rgba(28, 25, 23, 0.95);
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.15);
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
     --pillar-bg: var(--forge-90);
+    --pillar-sub: #A8A29E;
     --pillar-border: rgba(87, 83, 78, 0.4);
     --invert-bg: var(--vellum);
     --invert-text: var(--forge);
@@ -198,6 +199,17 @@ h5 {
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0.05em;
+  color: var(--copperfield);
+}
+.section-label {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--copperfield);
+}
+.section-dark .section-label {
   color: var(--copperfield);
 }
 .label {
@@ -517,7 +529,8 @@ hr {
 .hero p {
   font-size: 19px;
   line-height: 1.65;
-  color: var(--text-secondary);
+  color: var(--text);
+  opacity: 0.85;
   margin-bottom: var(--space-8);
   max-width: 560px;
 }
