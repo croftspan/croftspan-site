@@ -33,6 +33,6 @@ Voice is direct, confident without performing, specific, honest about limits, wa
 
 ## When to Go Deeper
 
-When writing any copy, check against the full voice guide at `~/croftspan/croftspan-app/executive/brand/voice-guide.md`.
+When writing any copy, read `.claude/references/voice-standard.md` for voice attributes, sentence patterns, and copy rules derived from the live site.
 When designing layouts or components, check the style guide at `~/croftspan/croftspan-app/executive/brand/style-guide.md`.
-When choosing messaging angles, check `~/croftspan/croftspan-app/executive/brand/messaging-framework.md`.
+When writing about the team or organization model, read `.claude/references/voice-standard.md` for AI-native organization voice.

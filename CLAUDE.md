@@ -1,6 +1,8 @@
 # Croftspan Site
 
-Consultancy website for Croftspan. Built by Eaven Portillo, solo founder with $650M+ in exits. The site sells the transformation, not the feature. The customer is the hero. Croftspan is the guide.
+Website for Croftspan, an AI-native organization with human operators in the loop. Founded by Eaven Portillo ($650M+ in exits). The site is the source of truth for voice, messaging, and positioning. It sells the transformation, not the feature. The customer is the hero. Croftspan is the guide.
+
+Croftspan runs on the same AI operations model it builds for clients. The team roles are real. The organization is AI-powered and human-directed. This is a competitive advantage, not something to explain away.
 
 Audience: CTOs, VPs of Engineering, founders who need AI workflows that produce consistent, reviewable output.
 
@@ -53,7 +55,9 @@ Pages: Homepage, About/Founder, Services, Team, Pillars, Contact.
 
 ## Autonomy
 
-- Read brand assets before writing copy. They live at `~/croftspan/croftspan-app/executive/brand/`.
+- The live site is the source of truth for voice, messaging, and positioning. Work backwards from it.
+- Read `.claude/references/voice-standard.md` before writing copy. It derives from the site.
 - Follow the language rules in `.claude/rules/brand.md` on every piece of copy.
 - When writing HTML/CSS, follow the visual identity: Forge/Vellum/Copperfield palette, DM Serif Display + Inter, component patterns from the style guide.
 - Never inflate claims. Every stat or credential must connect to what the customer becomes.
+- The team roles are real. Don't qualify or apologize for the AI-native organization model.

@@ -778,8 +778,20 @@ hr {
   padding: var(--space-32) 0;
   text-align: center;
 }
-.section-cta h2 { color: var(--invert-text); }
-.section-cta p { color: var(--invert-text-secondary); margin: 0 auto; }
+.section-cta h2 {
+  color: var(--invert-text);
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-cta p {
+  color: var(--invert-text-secondary);
+  margin: 0 auto;
+  max-width: 480px;
+}
+.section-cta .btn {
+  margin-top: var(--space-8);
+}
 
 /* --- Credential Bar --- */
 .credential-bar {
@@ -805,6 +817,31 @@ hr {
   font-weight: 500;
   color: var(--text-secondary);
   letter-spacing: 0.03em;
+}
+
+/* --- Signature Block --- */
+.signature-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.signature-row {
+  display: flex;
+  gap: var(--space-4);
+  align-items: baseline;
+}
+.signature-bold {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  min-width: 200px;
+}
+.signature-quiet {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-secondary);
 }
 
 /* --- Utility --- */
@@ -908,6 +945,8 @@ hr {
   .step:hover { padding-left: 0; }
 
   .credential-bar { flex-direction: column; gap: var(--space-8); }
+  .signature-row { flex-direction: column; gap: var(--space-1); }
+  .signature-bold { min-width: 0; }
   .pillars-grid { grid-template-columns: 1fr; }
 }
 
