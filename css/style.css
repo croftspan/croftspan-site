@@ -106,26 +106,8 @@ button { cursor: pointer; border: none; background: none; }
   --invert-text-secondary: var(--stone);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: var(--forge);
-    --bg-alt: #151311;
-    --text: var(--vellum);
-    --text-secondary: #A8A29E;
-    --surface: var(--forge-90);
-    --card-border: rgba(168, 162, 158, 0.1);
-    --border: rgba(168, 162, 158, 0.1);
-    --nav-bg: rgba(28, 25, 23, 0.92);
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.15);
-    --shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
-    --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.3);
-    --pillar-bg: var(--forge-90);
-    --pillar-sub: #A8A29E;
-    --pillar-border: rgba(168, 162, 158, 0.08);
-    --invert-bg: var(--vellum);
-    --invert-text: var(--forge);
-    --invert-text-secondary: var(--stone);
-  }
+/* prefers-color-scheme: dark removed — light mode is always the default.
+   Users can still toggle to dark via the theme switcher (data-theme="dark"). */
 }
 
 /* --- Focus --- */
@@ -372,10 +354,7 @@ p + p { margin-top: 1.2em; }
 :root:not([data-theme="dark"]) .theme-toggle .icon-sun { display: none; }
 [data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 [data-theme="dark"] .theme-toggle .icon-moon { display: none; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: block; }
-  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
-}
+/* prefers-color-scheme toggle icon override removed — light mode default */
 
 /* --- Buttons --- */
 .btn {
@@ -517,7 +496,7 @@ hr {
 }
 .hero h1 {
   margin-bottom: var(--space-8);
-  max-width: 800px;
+  max-width: none;
 }
 .hero p {
   font-size: 18px;
