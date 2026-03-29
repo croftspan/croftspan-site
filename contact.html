@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1C1917" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F5F0E8" media="(prefers-color-scheme: light)">
   <title>Contact | Croftspan</title>
   <meta name="description" content="Tell us about your project. We'll tell you honestly whether we can help.">
   <meta property="og:title" content="Contact | Croftspan">
@@ -56,7 +58,7 @@
   </section>
 
   <section class="section-sm">
-    <div class="container" style="max-width: 640px;">
+    <div class="container container-narrow">
       <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact">
         <p class="sr-only"><label>Don't fill this out: <input name="bot-field"></label></p>
@@ -76,10 +78,10 @@
           <textarea id="message" name="message" class="form-input" required placeholder="What does your team build? Where are your AI workflows falling short? What does 'fixed' look like for you?"></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
       </form>
 
-      <p class="text-small mt-8" style="text-align: center;">Prefer email? Reach us at <a href="mailto:hello@croftspan.com" class="link">hello@croftspan.com</a></p>
+      <p class="text-small mt-8 text-center">Prefer email? Reach us at <a href="mailto:hello@croftspan.com" class="link">hello@croftspan.com</a></p>
     </div>
   </section>
 
@@ -94,8 +96,8 @@
       <a href="team.html">Team</a>
       <a href="pillars.html">Pillars</a>
       <a href="contact.html">Contact</a>
-      <span style="color: var(--border);">|</span>
-      <a href="https://croftspan.github.io/gigo/">GIGO</a>
+      <span class="footer-sep">|</span>
+      <a href="https://croftspan.github.io/gigo/" target="_blank" rel="noopener">GIGO</a>
     </div>
     <div class="footer-copy">&copy; 2026 Croftspan. All rights reserved.</div>
   </div>
