@@ -241,6 +241,7 @@ p + p { margin-top: 1.2em; }
 /* Alt background */
 .section-alt {
   background: var(--bg-alt);
+  padding: var(--space-32) 0;
 }
 
 /* --- Grid --- */
@@ -692,6 +693,9 @@ hr {
   color: var(--text-secondary);
   border-bottom: 1px solid var(--border);
   padding-bottom: var(--space-3);
+}
+.cluster-label:not(:first-of-type) {
+  margin-top: var(--space-16);
 }
 
 /* --- Pillars --- */
