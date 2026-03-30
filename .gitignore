@@ -6,3 +6,5 @@ node_modules/
 .env.*
 screenshots/
 .impeccable.md
+.personas.md
+team/
