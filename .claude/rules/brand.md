@@ -8,6 +8,10 @@ Draws from the Croftspan brand system (voice guide, messaging framework, visual 
 
 Voice is direct, confident without performing, specific, honest about limits, warm not cute. Every word earns its place. Read aloud. If it sounds like marketing, rewrite it.
 
+## Copy Iteration
+
+When copy is rejected, ask what specifically missed the mark before rewriting. Don't generate a new version from scratch. Identify the gap (tone, specificity, structure, length) and adjust.
+
 ## Language Rules
 
 | Don't say | Say instead |

@@ -6,6 +6,10 @@
 2. **Execute** — Use `gigo:execute` for implementation. Workers run bare with clean specs.
 3. **Review** — Use `gigo:verify` after each page or component. Two stages: spec compliance (did we build the right thing?) then craft quality (is the work well-built?).
 
+## Visual/Layout Changes
+
+For any visual design change (layout structure, spacing, component design, section styling): describe the intended change in one sentence and wait for approval before writing code. Do not cycle through multiple approaches. Propose one, get feedback, adjust.
+
 ## Persona Calibration
 
 Before applying persona guidance, assess the task:

@@ -655,6 +655,45 @@ hr {
   font-size: 12px;
 }
 
+/* --- Operator Block --- */
+.operator-block {
+  display: flex;
+  gap: var(--space-8);
+  align-items: flex-start;
+}
+.operator-avatar {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--copperfield);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--vellum);
+}
+.operator-content {
+  flex: 1;
+}
+.operator-content h3 {
+  color: var(--copperfield);
+}
+
+/* --- Cluster Labels --- */
+.cluster-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-3);
+}
+
 /* --- Pillars --- */
 .pillars-section {
   padding: var(--space-24) 0 var(--space-32);
@@ -922,6 +961,8 @@ hr {
 
   .step { flex-direction: column; gap: var(--space-3); }
   .step:hover { padding-left: 0; }
+
+  .operator-block { flex-direction: column; gap: var(--space-4); }
 
   .credential-bar { flex-direction: column; gap: var(--space-8); }
   .signature-row { flex-direction: column; gap: var(--space-1); }
